@@ -35,7 +35,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
       // bad way to validate
       if (phonNumber === '017' && pinNumber === '1234'){
             console.log('You are logged in')
-            window.location.href = '/home.html'
+            window.location.href = './home.html'
       }
       else{
             alert('wrong phon number or pin')
