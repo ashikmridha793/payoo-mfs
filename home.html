@@ -35,21 +35,62 @@
           </div>
           <div class="divider"></div>
           <!-- add money er form start-->
-          <div class="card bg-base-100  max-w-sm shrink-0 shadow-2xl">
+          <div class="hidden card bg-base-100 max-w-sm shrink-0 shadow-2xl">
             <div class="card-body w-full">
               <fieldset class="fieldset">
                 <label class="label">Amount</label>
-                <input id="input-add-money" type="text" class="input" placeholder="Add amount" />
+                <input
+                  id="input-add-money"
+                  type="text"
+                  class="input"
+                  placeholder="Add amount"
+                />
                 <label class="label">Pin</label>
-                <input id="input-pin-number" type="password" class="input" autocomplete="off" placeholder="Enter Your Pin" />
-                <button id="btn-add-money" class="btn btn-neutral mt-4">Add Money</button>
+                <input
+                  id="input-pin-number"
+                  type="password"
+                  class="input"
+                  autocomplete="off"
+                  placeholder="Enter Your Pin"
+                />
+                <button id="btn-add-money" class="btn btn-neutral mt-4">
+                  Add Money
+                </button>
               </fieldset>
             </div>
           </div>
           <!-- add money er form end-->
+          <!-- cash out start -->
+          <div class="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
+            <div class="card-body w-full">
+              <fieldset class="fieldset">
+                <label class="label">Amount</label>
+                <input
+                  id="input-cash-out"
+                  type="text"
+                  class="input"
+                  placeholder="cash out amount"
+                />
+                <label class="label">Pin</label>
+                <input
+                  id="input-cash-out-pin"
+                  type="password"
+                  class="input"
+                  autocomplete="off"
+                  placeholder="Enter Your Pin"
+                />
+                <button id="btn-cash-out" class="btn btn-neutral mt-4">
+                  Cash Out
+                </button>
+              </fieldset>
+            </div>
+          </div>
+          <!-- cash out end -->
         </div>
       </div>
     </main>
-    <script src="./js/home.js"></script>
+    <!-- <script src="./js/home.js"></script> -->
+    <script src="./js/addMoney.js"></script>
+    <script src="./js/cashOut.js"></script>
   </body>
 </html>
